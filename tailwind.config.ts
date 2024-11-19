@@ -14,6 +14,9 @@ const config: Config = {
         primary: "#3B82F6",
         secondary: "#22C55E",
         placeholder: "#495057",
+      },
+      boxShadow: {
+        xs: '4px 6px 4px rgba(0, 0, 0, 0.17)'
       }
     },
   },
