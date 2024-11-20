@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/*keyframe pour loader */
+.loading-bar {
+  animation: load 2s infinite;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 300px;
+  }
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -29,6 +42,7 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    --cgr:#22C55E;
   }
 
   .dark {
