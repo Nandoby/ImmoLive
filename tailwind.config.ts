@@ -19,6 +19,10 @@ const config = {
     },
     extend: {
       colors: {
+        brand: {
+          DEFAULT: "#3B82F6",
+          cgr: ("var(--cgr)"),
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -73,6 +77,9 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      boxShadow: {
+        input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
